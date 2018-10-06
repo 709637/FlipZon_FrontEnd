@@ -24,7 +24,7 @@ export class OneItemComponent implements OnInit {
    }  //var path=require('path');
    ItemDetail:any[];
    mymethod(){
-    this.myArray=["1","2","3","4",4,4,4,4,4,4];
+    this.myArray=["1","2","3","4",4,4,4,4,4,4,5,5];
     //this.myArray1=configData.data1.myArray1;
     console.log("myArray1",this.myArray1);
   }
