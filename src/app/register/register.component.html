@@ -1,0 +1,16 @@
+<div id="registerParentDiv" [ngStyle]="{ 'background-image': 'url(' + 'src/assets/WebsiteImages/loginregisterbcgnd.jpg' + ')'}">
+    <form id="reg-form">
+          <div class="form-inputs"><label class="form-lables">Name:    </label> <input type="text" id="User_Name" placeholder="Enter your name" class="form-fields login_text"/><br/></div>
+          <div class="form-inputs"><label class="form-lables">Email ID:   </label> <input type="email" id="Email_ID"  placeholder="Enter your email"  class="form-fields login_text"/><br/></div>
+          <div class="form-inputs"><label class="form-lables">Choose Your Login ID:     </label> <input type="text" id="User_ID" placeholder="Choose Login ID" class="form-fields login_text"/><br/></div>
+          <div class="form-inputs"><label class="form-lables">Mobile No.:     </label> <input type="text" id="Mobile_No" placeholder="Enter your Mobile No." class="form-fields login_text"/><br/></div>
+          <div class="form-inputs"><label class="form-lables">Password:    </label> <input type="password" id="User_Password"  placeholder="Choose password"  class="form-fields login_text"/><br/></div>
+          <div class="form-inputs"><label class="form-lables">Confirm Password:     </label> <input type="password"  placeholder="Re-enter password" class="form-fields login_text"/><br/><br/></div>
+  
+          
+          
+    </form>
+
+    <div class="form-buttons"><input type="button" value="Cancel" id="Submit_Button" class="login_btn" /><input type="button" value="Register" id="Submit_Button" class="login_btn" (click)="registerUser()"></div>
+</div>
+  

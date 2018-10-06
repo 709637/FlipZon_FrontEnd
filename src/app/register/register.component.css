@@ -1,0 +1,44 @@
+.login_btn{
+    width: 190px;
+    height: 40px;
+    background-color: gray;
+    
+    
+    }
+.login_text{
+    border: 2px solid black;
+    border-radius:5px;
+    width:250px;
+    height: 20px;
+    }
+
+#reg-form{
+
+display: inline-table;
+}
+
+.form-inputs{
+display: table-row;
+
+}
+
+.form-lables{
+    display: table-cell;
+    text-align: right;
+    
+}
+
+.form-fields{
+    display: table-cell;
+    padding:2px;
+    margin: 2px;  
+   
+    
+}
+
+.form-buttons{
+    display: block;
+    text-align: center !important;
+    }
+
+   
