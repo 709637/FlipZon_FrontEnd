@@ -9,9 +9,10 @@ import { RegisterComponent } from './register/register.component';
 import { Subscriber } from 'rxjs';
 
 
-@Injectable({
-  providedIn: 'root'
-})
+// @Injectable({
+//   providedIn: 'root'
+// })
+@Injectable()
 export class LoginRegisterService {
 
   constructor(private http:Http) { }

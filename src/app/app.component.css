@@ -1,0 +1,43 @@
+#header{
+    height: 100px;
+    background-color:lightblue; 
+    text-align: center;
+    border: 2px solid rgb(151, 14, 151) ;    
+}
+#menu{
+    width: 20%; 
+    height: 100vh;
+    background-color:gray; 
+    margin: auto;    
+    border: 2px solid thistle ;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  
+}
+#content{
+   
+    width: 80%;
+    height: 100vh; 
+    margin: auto;
+    padding: 10px;
+    background-color: azure;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+   
+}
+#main{
+    width: 100%;
+    display: table;
+}
+
+.navigator{
+    padding: 6px;  
+    font-size: 20px;
+}
+a:hover{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;    
+}

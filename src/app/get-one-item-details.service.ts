@@ -6,9 +6,10 @@ import 'rxjs/add/operator/map';
 import { OneItemComponent } from './one-item/one-item.component';
 
 
-@Injectable({
-  providedIn: 'root'
-})
+// @Injectable({
+//   providedIn: 'root'
+// })
+@Injectable()
 export class GetOneItemDetailsService {
 
   constructor(private http:Http, private httpClientModule:HttpClientModule) { }
